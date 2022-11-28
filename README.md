@@ -11,7 +11,8 @@ https://github.com/yuzawa-san/thin-gbfs
 ## Environment variables:
 
 ```java
-
+if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
 ```
 
 ## GitHub
