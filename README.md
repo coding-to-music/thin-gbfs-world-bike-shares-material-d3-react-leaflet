@@ -2,6 +2,8 @@
 
 # 🚀 A thin and low-network-use mobile web app for many common bike sharing systems. 🚀
 
+Lot of python, I did not try to get it to work, install errors.
+
 https://github.com/coding-to-music/thin-gbfs-world-bike-shares-material-d3-react-leaflet
 
 From / By James Yuzawa https://github.com/yuzawa-san
@@ -84,3 +86,36 @@ Note: Since GBFS is an open standard, GBFS systems are hit directly rather than 
 ### Data Errors
 
 You will have to go to the respective projects / companies to their issue tracking systems. This project does not actually curate any data.
+
+## Installation
+
+```
+npm run start
+```
+
+Output
+
+```
+[1] /bin/sh: 1: react-scripts: Permission denied
+[1] react-scripts start exited with code 127
+[0] This action requires the installation of components: [app-engine-
+[0] python, cloud-datastore-emulator]
+[0] 
+[0] 
+[0] Your current Google Cloud CLI version is: 379.0.0
+[0] Installing components from version: 379.0.0
+[0] 
+[0] +---------------------------------------------------+
+|        These components will be installed.        |
+[0] +------------------------------+---------+----------+
+[0] |             Name             | Version |   Size   |
+[0] +------------------------------+---------+----------+
+[0] | Cloud Datastore Emulator     |   2.1.0 | 18.4 MiB |
+| gRPC Python library          |  1.20.0 |  2.1 MiB |
+[0] | gcloud app Python Extensions |  1.9.99 |  7.8 MiB |
+[0] +------------------------------+---------+----------+
+[0] 
+[0] For the latest full release notes, please visit:
+[0]   https://cloud.google.com/sdk/release_notes
+[0] 
+```
